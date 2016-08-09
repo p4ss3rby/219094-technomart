@@ -9,24 +9,23 @@
     <header class="main-header">                 
         <div class="container">
         <div class="index-logo">
-            <h1><a href="#">ТЕХНОМАРТ</a></h1>
+            <a href="#"><h1>Техномарт</h1></a>
         </div>
-        <div>
+        <div class="search">
             <form action="#" method="get">
            <input type="search" name="search" value="Поиск: ">
             </form>
         </div>
-            <!--Закладки (не совсем понял, каким способом это делать)-->
-            <!--Корзина-->
+        <div class="bookmarks-cart">
+            <a href="#">Закладки: 0</a>
+            <a href="#">Корзина: 0</a>
+        </div>
             <div class="user-block">
-                <a class="buy" href="#">Оформить</a>
+                <a class="order" href="#">Оформить заказ</a>
             </div>
         </div>
-    </header>
                                                 <!--БЛОК С НАВИГАЦИЕЙ-->
-                                                <!--Часть перед строкой с навигацией-->
-    <main>                                         
-        <div class="container-1"> 
+    <div class="container"> 
         <div>
             <p>Интернет-магазин<br>
             строительных материалов<br>
@@ -38,10 +37,9 @@
         </div>
         <div class="user-block">
             <a class="login" href="#">Войти</a>
-        </div>
-        <div class="user-block-1">
             <a class="registration" href="#">Регистрация</a>
-        </div>                                                                      
+        </div> 
+    </div>                                                                                        
                                                 <!--Строка навигации-->
         <nav class="main-navigation">         
          <ul>
@@ -54,77 +52,82 @@
              <li><a href="#">Контакты</a></li>
          </ul>
         </nav>
+    </header>                                         
                                                 <!--РАЗНОЦВЕТНЫЙ БЛОК-->
-                                                <!--Мне кажется, я тут напортачил, есть смысл вкладывать див в секшн? Запутался с ними немного-->
-        <section class="features">
-            <div class="features-item-1">
-               <b class="features-name">Материалы</b>
-                <a href="#"><p>НА ЛЮБОЙ ВКУС</p></a>
+    <main>                                      
+        <section class="categories">
+            <div class="category-materials">
+               <h3 class="category-name">Материалы</h3>
+                <a href="#">На любой вкус</a>
             </div>
-            <div class="features-item-2">
-               <b class="features-name">Инструмент</b>
-                <a href="#"><p>НА ВСЕ СЛУЧАИ</p></a>
+            <div class="category-instruments">
+               <h3 class="category-name">Инструмент</h3>
+                <a href="#">На все случаи</a>
             </div>
-            <div class="features-item-3">
-               <b class="features-name">Техника</b>
-                <a href="#"><p>ДЛЯ СТРОЙКИ</p></a>
+            <div class="category-equipment">
+               <h3 class="category-name">Техника</h3>
+                <a href="#">Для стройки</a>
             </div>
-            <div class="features-item-4">
-               <b class="features-name">Скидки 50%</b>
-                <a href="#"><p>НА 350 ТОВАРОВ</p></a>
+            <div class="category-sales">
+               <h3 class="category-name">Скидки 50%</h3>
+                <a href="#">На 350 товаров</a>
             </div>
-            <div class="features-item-5">
-               <b class="features-name">Доставка</b>
-                <a href="#"><p>БЕСПЛАТНО</p></a>
+            <div class="category-delivery">
+               <h3 class="category-name">Доставка</h3>
+                <a href="#">Бесплатно</a>
             </div>
-            <div class="features-item-6">
-                <b class="features-name-1">ПЕРФОРАТОРЫ</b>
-                <p>Настроящие мужские игрушки</p> <!--"настРощяие" - грам.ошибка или так надо, типа от слова "строить"?-->
+            <div class="category-drills">
+                <h3 class="category-name-drills">Перфораторы</h3>
+                <p>Настоящие мужские игрушки</p> 
                 <button type="button" class="btn-prev"></button>
                 <button type="button" class="btn-next"></button>
-                <a href="#"><p>ОТКРЫТЬ КАТАЛОГ</p></a>
+                <a href="#">Открыть каталог</a>
             </div>
-        </section>
                                                 <!--ПОПУЛЯРНЫЕ ТОВАРЫ-->
-            <div class="popular-products">
+            <div class="popular">
                 <p>ПОПУЛЯРНЫЕ ТОВАРЫ:</p>
-                <a href="#"><p>ВСЕ ПОПУЛЯРНЫЕ ТОВАРЫ</p></a>
-            </div>        
+                <a href="#">ВСЕ ПОПУЛЯРНЫЕ ТОВАРЫ</a>
+            </div>   
+        </section>     
                                                 <!--БЛОК С ПЕРФОРАТОРАМИ-->
         <section class="drill"> 
+           <div>
+               <img src="#" alt="Фоновое изображение">
+           </div>
             <div class="drill-item">
                <img src="#" alt="Перфоратор BOSCH BFG 9000">
-                <p><b class="drill-name">Перфоратор BOSCH BFG 9000</b></p>
+                <h3 class="drill-name">Перфоратор BOSCH BFG 9000</h3>
                 <p>32500 Р.</p>
-                <a href="#"><p>25500 Р.</p></a>
+                <a href="#">25500 Р.</a>
             </div>
             <div class="drill-item">
                <img src="#" alt="Перфоратор BOSCH BFG 3000">
-                <p><b class="drill-name">Перфоратор BOSCH BFG 3000</b></p>
+                <h3 class="drill-name">Перфоратор BOSCH BFG 3000</h3>
                 <p>22500 Р.</p>
-                <a href="#"><p>15500 Р.</p></a>
+                <a href="#">15500 Р.</a>
             </div>
             <div class="drill-item">
                <img src="#" alt="Перфоратор BOSCH BFG 6000">
-                <p><b class="drill-name">Перфоратор BOSCH BFG 6000</b></p>
+                <h3 class="drill-name">Перфоратор BOSCH BFG 6000</h3>
                 <p>30500 Р.</p>
-                <a href="#"><p>25500 Р.</p></a>
+                <a href="#">25500 Р.</a>
             </div>
-            <div class="drill-item-1">
+            <div class="drill-item">
                <img src="#" alt="Перфоратор BOSCH BFG 2000">
-                <p><b class="drill-name">Перфоратор BOSCH BFG 2000</b></p>
+                <h3 class="drill-name">Перфоратор BOSCH BFG 2000</h3>
                 <p></p>
-                <a href="#"><p>12500 Р.</p></a>
+                <a href="#">12500 Р.</a>
             </div>
         </section>                                 
                                                  <!--ПОПУЛЯРНЫЕ ПРОИЗВОДИТЕЛИ-->
-            <div class="popular-producer">
+        <section class="companies">    
+            <div class="popular">
                 <p>ПОПУЛЯРНЫЕ ПРОИЗВОДИТЕЛИ:</p>
-                <a href="#"><p>ВСЕ ПРОИЗВОДИТЕЛИ</p></a>
+                <a href="#">ВСЕ ПРОИЗВОДИТЕЛИ</a>
             </div>
             
                                                 <!--БЛОК ПРОИЗВОДИТЕЛЕЙ-->
-            <section class="companies">
+            
                 <div class="company-item">
                     <a href="#"><img src="#" alt="BOSCH"></a>
                     <a href="#"><img src="#" alt="Makita"></a>
@@ -137,7 +140,7 @@
                 </div>
             </section>
                                                     <!--СЕРВИСЫ-ДОСТАВКА-->
-            <div class="container-2">
+            <div class="container">
                <div class="service">
                    <h3 class="service-name">СЕРВИСЫ</h3>
                    <p>Хороший интернет-магазин отличается от плохого не только ценами!<br>
@@ -151,14 +154,14 @@
                    поднимая его на ваш этаж!</p>
                </div>
                <div class="list">
-                   <a href="#"><p>Доставка</p></a>
-                   <a href="#"><p>Гарантия</p></a>
-                   <a href="#"><p>Кредит</p></a>
+                   <a href="#">Доставка</a>
+                   <a href="#">Гарантия</a>
+                   <a href="#">Кредит</a>
                </div>
                <img src="#" alt="Грузовик">
             </div>
-                                                    <!--КОМПАНИЯ "ТЕХНОМАРТ"-КОНТАКТЫ-->
-            <div class="contacts-inf">                <!--КОМПАНИЯ "ТЕХНОМАРТ"-->
+        <div>                                            <!--КОМПАНИЯ "ТЕХНОМАРТ"-КОНТАКТЫ-->
+            <div class="contacts-inf">                   <!--КОМПАНИЯ "ТЕХНОМАРТ"-->
                 <div class="about">
                     <h3>КОМПАНИЯ «ТЕХНОМАРТ»</h3>
                         <p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и<br>
@@ -184,17 +187,17 @@
             </div>
         </div>
     </main>
-                                                        <!--ОСНОВНОЙ ФУТЕР-->
-    <footer class="main-footer">
-        <div class="container-3">
-           <div class="footer-logo">
+                                                        <!--ВЕРХНИЙ ФУТЕР-->
+    <footer class="upper-footer">
+        <div class="container">
+           <div class="up-footer-logo">
                <h3><a href="#">ТЕХНОМАРТ</a></h3>
            </div>
-            <div class="footer-contacts">
+            <div class="up-footer-cont">
                 <p>г. Санкт-Петербург, ул.Б. Конюшенная, д. 19/8<br>
                     +7 (812) 555-05-55</p>
             </div>
-            <nav class="footer-nav">
+            <nav class="up-footer-nav">
                 <ul>
                     <li><a href="#">Компания</a></li>
                     <li><a href="#">Новости</a></li>
@@ -203,7 +206,7 @@
                     <li><a href="#">Контакты</a></li>
                 </ul>
             </nav>
-            <nav class="footer-nav-1">
+            <nav class="up-footer-nav1">
                 <ul>
                     <li><a href="#">Материалы</a></li>
                     <li><a href="#">Техника</a></li>
@@ -212,27 +215,26 @@
                 </ul>
             </nav>
         </div>
-    </footer>                                             <!--ФУТЕР-->
-    <footer class="footer-2">
-       <div class="container-4">
-          <!--За это (секшн вместо дивов), сказали, наставники могут ругать, но так можно :D-->
-           <section class="footer-copyright">
+    </footer>                                             <!--НИЖНИЙ ФУТЕР-->
+    <footer class="lower-footer">
+       <div class="container">
+           <div class="copyright">
                <p>©2010-2016 Компания «Техномарт»<br>
                   Все права защищены</p>
-           </section>
-           <section class="footer-social">
-               <a class="social-btn social-btn-vk" href="#">Вконтакте</a> <!--значки через css добавляем, как я понял-->
+           </div>
+           <div class="social">
+               <a class="social-btn social-btn-vk" href="#">Вконтакте</a> 
                <a class="social-btn social-btn-fb" href="#">Facebook</a>
                <a class="social-btn social-btn-inst" href="#">Instagram</a>
-           </section>
-           <section class="feedback">
-               <p>Обратная связь:<br><a href="#">
-                   mail@htmlacademy.ru</a></p>
-           </section>
-           <section class="developer">
+           </div>
+           <div class="feedback">
+               <p>Обратная связь:<br>
+               <a href="#">mail@htmlacademy.ru</a></p>
+           </div>
+           <div class="developer">
                <p>Разработано — <br>
                <a href="#">htmlacademy.ru</a></p>
-           </section>
+           </div>
        </div>
     </footer>
   </body>
