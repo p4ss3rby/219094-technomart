@@ -72,22 +72,24 @@
              <h4>Фильтр:</h4>
              <h4>Сортировка:</h4>
          </div>
-         <div class="sortings">   
-             <button type="button" class="button1">По цене</button>
-             <button type="button" class="button2">По типу</button>
-             <button type="button" class="button3">По функционалу</button>
-             <button type="button" class="up">up</button>
-             <button type="button" class="down">down</button>
+         <div class="sortings"> 
+            <ul>
+                <li><a href="#">По цене</a></li>
+                <li><a href="#">По типу</a></li>
+                <li><a href="a">По функционалу</a></li>
+                <li><a href="a">up</a></li>
+                <li><a href="a">down</a></li>
+            </ul>
          </div> 
          
     <form action ="#" method="get" class="filter">                        <!--БЛОК С ФИЛЬТРАМИ-->
         <fieldset>     
          <legend class="filter-categories">Цена:</legend>                    <!--Ползунок-->
          <div class="numbers">
-                 <input type="range" min="0" max="30000" step="1"><br>
+                 <input type="range" min="0" max="30000" step="1"><br> <!--Ползунок через JS-->
                  <input type="text" name="min" value="0">
                  <span>-</span>
-                 <input type="text" name="min" value="30000">
+                 <input type="text" name="max" value="30000">
          </div>
         </fieldset>
         <fieldset>
