@@ -6,6 +6,7 @@
     <link href="css/style.css" rel="stylesheet">
     <img src="img/logo.png" width="100" height="50" alt="Техномарт">
   </head>
+  
   <body>
                                                        <!--ШАПКА САЙТА-->
     <header class="main-header">                 
@@ -57,13 +58,17 @@
                                                             <!--Проводник-->
      <main>
          <div class="breadcrumbs">
-             <a href="#">Каталог</a>
-             <a href="#">Инструмент</a>
-             <a href="#">Перфораторы</a>
-             <a href="#"></a>        <!--Ссылка под домик-->
+            <ul>
+                <li><a href="#">Каталог</a></li>
+                <li><a href="#">Инструмент</a></li>
+                <li><a href="#">Перфораторы</a></li>
+                <li><a href="#"></a></li>
+            </ul>       <!--Ссылка под домик-->
          </div>
-                                                             <!--Строка сортировки-->
-         <div class="filter">
+                                                         <!--Строка сортировки-->
+                                                        
+                                          
+         <div class="filter-names">
              <h4>Фильтр:</h4>
              <h4>Сортировка:</h4>
          </div>
@@ -73,34 +78,42 @@
              <button type="button" class="button3">По функционалу</button>
              <button type="button" class="up">up</button>
              <button type="button" class="down">down</button>
-         </div>    
-         <h3 class="filter-categories">Цена:</h3>                    <!--Ползунок-->
+         </div> 
+         
+    <form action ="#" method="get" class="filter">                        <!--БЛОК С ФИЛЬТРАМИ-->
+        <fieldset>     
+         <legend class="filter-categories">Цена:</legend>                    <!--Ползунок-->
          <div class="numbers">
-             <form action="#" method="get" class="price">
                  <input type="range" min="0" max="30000" step="1"><br>
                  <input type="text" name="min" value="0">
                  <span>-</span>
                  <input type="text" name="min" value="30000">
-             </form>
          </div>
-         <h3 class="headlines">Производители:</h3>            <!--Чекбоксы-->
+        </fieldset>
+        <fieldset>
+         <legend class="headlines">Производители:</legend>            <!--Чекбоксы-->
          <div class="manufacturer">
-             <form action="#" method="get" class="manufacturer-list">
-                 <label><input type="checkbox" name="Bosch" checked>Bosch</label>
-                 <label><input type="checkbox" name="Интерскол">Интерскол</label>
-                 <label><input type="checkbox" name="Makita" checked>Makita</label>
-                 <label><input type="checkbox" name="Dewalt">Dewalt</label>
-                 <label><input type="checkbox" name="Hitachi">Hitachi</label>
-            </form>
+                <ul>
+                    <li><label><input type="checkbox" name="Bosch" checked>Bosch</label></li>
+                    <li><label><input type="checkbox" name="Интерскол">Интерскол</label></li>
+                    <li><label><input type="checkbox" name="Makita" checked>Makita</label></li>
+                    <li><label><input type="checkbox" name="Dewalt">Dewalt</label></li>
+                    <li><label><input type="checkbox" name="Hitachi">Hitachi</label></li>
+                </ul>
          </div>
-         <h3 class="headlines">Питание:</h3>                    <!--Переключатели-->
+        </fieldset>
+        <fieldset>
+         <legend class="headlines">Питание:</legend>                    <!--Переключатели-->
          <div class="supply">
-             <form action="#" method="get" class="supply-list">
-                 <label><input type="radio" name="battery" checked>Аккумуляторные</label>
-                 <label><input type="radio" name="electric">Сетевые</label> 
-            </form>
+                <ul>
+                    <li><label><input type="radio" name="battery" checked>Аккумуляторные</label></li>
+                    <li><label><input type="radio" name="electric">Сетевые</label></li>
+                </ul>
          </div>
-         <a href="#" class="show">Показать</a>
+         <input type="submit" name="show" value="Показать">
+        </fieldset>
+    </form>
+   
           
                                                                <!--БЛОК С ПЕРФОРАТОРАМИ-->
         <section class="drill"> 
