@@ -1,0 +1,23 @@
+body {
+    font-size: 17px;
+    line-height: 17px;
+    color: white;
+    font-weight: normal;
+    font-family: "Cuprum";
+}
+
+h1 {
+    font-size: 24px;
+    line-height: 24px;
+    color: white;
+    font-weight: normal;
+    font-family: "Cuprum";
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 30px;
+    color: white;
+    font-weight: bold;
+    font-family: "Cuprum";
+}
