@@ -21,3 +21,103 @@ h3 {
     font-weight: bold;
     font-family: "Cuprum";
 }
+
+.index-logo {
+    width: 230px;
+    height: 47px;
+    float: left;
+    text-align: center;
+    background-color: cadetblue;
+}
+
+.search {
+    width: 250px;
+    height: 40px;
+    float: left;
+    margin-left: 10px;    
+}
+
+.description {
+    width: 220px;
+    height: 85px;
+    margin-left: 53px;
+    margin-top: 64px
+}
+
+.bookmarks-cart {
+    width: 282px;
+    height: 40px;
+    float: left;
+}
+
+.adress {
+    width: 350px;
+    height: 77px;
+    text-align: center;
+    margin-left: 300px;
+    margin-top: -100px;
+}
+
+.user-block {
+    width: 310px;
+    height: 90px;
+    margin-left: 750px;
+    
+}
+
+
+.main-header {
+    min-height: 70px;
+    background-color: bisque;
+}
+
+.container {
+    width: 940px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: darkgray;
+}
+
+.main-navigation {
+    width: 940px;
+    min-height: 60px;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center
+}
+
+.categories {
+    width: 940px;
+    background-color: darkgray;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.popular {
+    width: 940px;
+    background-color: burlywood;
+    margin-right: auto;
+    margin-left: auto;      
+}
+
+.drill {
+   width: 940px;
+    background-color: darkgreen;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.company-item {
+    width: 940px;
+    background-color: azure;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contacts-inf {
+    width: 940px;
+    background-color: darkgoldenrod;
+    margin-left: auto;
+    margin-right: auto;
+}
