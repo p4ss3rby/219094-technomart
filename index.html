@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт</title>
        <link href="css/style.css" rel="stylesheet">
-    <img src="img/logo.png" width="100" height="50" alt="Техномарт">
+    <!--<img src="img/logo.png" width="100" height="50" alt="Техномарт">-->
    </head>
   
    <body>                                                <!--ШАПКА САЙТА-->
@@ -19,15 +19,15 @@
                 </form>
             </div>
             <div class="bookmarks-cart">
-                <a href="#">Закладки:<span>0</span></a>
-                <a href="#">Корзина:<span>10</span></a>
+                <a href="#">Закладки:<span> 0</span></a>
+                <a href="#">Корзина:<span> 0</span></a>
             </div>
             <div class="user-block">
                 <a class="order" href="#">Оформить заказ</a>
             </div>
         </div>
                                                         <!--БЛОК С НАВИГАЦИЕЙ-->
-        <div class="container clearfix"> 
+        <div class="container"> 
             <div class="description">
                 <p>Интернет-магазин<br>
             строительных материалов<br>
@@ -36,11 +36,12 @@
             <div class="adress">
                 <p>+7 (812) 555-05-55</p>
                 <p>г.Санкт-Петербург, ул. Б. Конюшенная, д.19/8</p>
+            
+                <div class="login">
+                    <a class="login" href="#">Войти</a>
+                    <a class="registration" href="#">Регистрация</a>
+                </div> 
             </div>
-            <div class="login">
-                <a class="login" href="#">Войти</a>
-                <a class="registration" href="#">Регистрация</a>
-            </div> 
         </div>                                                                                        
                                                 <!--Строка навигации-->
         <nav class="main-navigation">         
@@ -57,7 +58,7 @@
     </header>                                         
                                                 <!--РАЗНОЦВЕТНЫЙ БЛОК-->
     <main>                                      
-        <section class="categories clearfix">
+        <section class="categories">
             <div class="category-materials">
                <h3 class="category-name">Материалы</h3>
                 <a href="#">На любой вкус</a>
@@ -85,10 +86,12 @@
                 <button type="button" class="btn-next"></button>
                 <a href="#">Открыть каталог</a>
             </div>
-        </section>                                    <!-ПОПУЛЯРНЫЕ ТОВАРЫ-->
+        </section>                                    <!--ПОПУЛЯРНЫЕ ТОВАРЫ-->
             <div class="popular">
                 <p>Популярные товары:</p>
+                <div class="all-popular">
                 <a href="#">Все популярные товары</a>
+                </div>
             </div>   
              
                                                 <!--БЛОК С ПЕРФОРАТОРАМИ-->
@@ -119,10 +122,12 @@
             </div>
         </section>                                 
                                                  <!--ПОПУЛЯРНЫЕ ПРОИЗВОДИТЕЛИ-->
-        <section class="companies">    
+        <section class="compan    ies">    
             <div class="popular">
                 <p>Популярные производители:</p>
+                <div class="all-popular">
                 <a href="#">Все производители</a>
+                </div>
             </div>
             
                                                 <!--БЛОК ПРОИЗВОДИТЕЛЕЙ-->
