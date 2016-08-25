@@ -22,69 +22,53 @@ h3 {
     font-family: "Cuprum";
 }
 
+.container {
+    width: 940px;
+    padding: 0 10px;
+    margin: 0 auto;
+    background-color: darkgray;
+}
+
 .index-logo {
-    width: 230px;
-    height: 47px;
     float: left;
     text-align: center;
     background-color: cadetblue;
 }
 
 .search {
-    width: 250px;
-    height: 40px;
-    float: left;
-    margin-left: 10px;    
+    float: left;    
 }
 
 .description {
-    width: 220px;
-    height: 85px;
-    margin-left: 53px;
-    margin-top: 64px
+    float: left;
 }
 
 .bookmarks-cart {
-    width: 282px;
-    height: 40px;
     float: left;
 }
 
 .adress {
-    width: 350px;
-    height: 77px;
     text-align: center;
-    margin-left: 300px;
-    margin-top: -100px;
 }
 
 .user-block {
-    width: 310px;
-    height: 90px;
-    margin-left: 750px;
+    padding-top: 40px;
+  
     
 }
 
 
 .main-header {
-    min-height: 70px;
     background-color: bisque;
 }
 
-.container {
-    width: 940px;
-    margin-right: auto;
-    margin-left: auto;
-    background-color: darkgray;
-}
+
 
 .main-navigation {
     width: 940px;
-    min-height: 60px;
     background-color: burlywood;
     margin-left: auto;
     margin-right: auto;
-    text-align: center
 }
 
 .categories {
@@ -92,13 +76,40 @@ h3 {
     background-color: darkgray;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 60px;
+}
+
+.category-materials {
+    float: left;
+    margin-right: 20px;
+}
+
+.category-instruments {
+    float:left;
+    margin-right: 20px;
+}
+
+.category-equipment {
+    float:left;
+    margin-right: 20px;
+}
+
+.category-sales {
+    float: right;
+    margin-right: 20px;
+}
+
+.category-delivery {
+    float: right  ;
+    margin-right: 20px;
 }
 
 .popular {
     width: 940px;
     background-color: burlywood;
     margin-right: auto;
-    margin-left: auto;      
+    margin-left: auto;   
+    margin-top: 54px;
 }
 
 .drill {
