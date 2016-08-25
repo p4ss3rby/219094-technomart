@@ -41,15 +41,22 @@ h3 {
 .search {
     width: auto;
     float: left;  
-    margin-right: 20px;
-}
-
-.description {
-    float: left;
+    
+    margin-right: 80px;
 }
 
 .bookmarks-cart {
+    min-height: 28px;
+    padding-top: 14px;
+    display: inline-block;
+}
+
+.description {
+    width: 200px;
+    min-height: 61px;
     float: left;
+    margin-left: 53px;
+    padding-top: 55px
 }
 
 .adress {
