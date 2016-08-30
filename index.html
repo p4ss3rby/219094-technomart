@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт</title>
        <link href="css/style.css" rel="stylesheet">
-    <!--<img src="img/logo.png" width="100" height="50" alt="Техномарт">-->
+    
    </head>
   
    <body>                                                <!--ШАПКА САЙТА-->
@@ -18,16 +18,19 @@
                     <input type="search" name="search" placeholder="Поиск: ">
                 </form>
             </div>
-            <div class="bookmarks-cart">
+            <div class="bookmarks">
                 <a href="#">Закладки:<span> 0</span></a>
+            </div>
+            <div class="cart">
                 <a href="#">Корзина:<span> 0</span></a>
             </div>
             <div class="user-block">
                 <a class="order" href="#">Оформить заказ</a>
             </div>
         </div>
-                                                        <!--БЛОК С НАВИГАЦИЕЙ-->
-        <div class="container"> 
+    </header>                                            <!--БЛОК С НАВИГАЦИЕЙ-->
+       <section class="under-header">
+        
             <div class="description">
                 <p>Интернет-магазин<br>
             строительных материалов<br>
@@ -36,15 +39,14 @@
             <div class="adress">
                 <p>+7 (812) 555-05-55</p>
                 <p>г.Санкт-Петербург, ул. Б. Конюшенная, д.19/8</p>
-            
+            </div>
                 <div class="login">
                     <a class="login" href="#">Войти</a>
                     <a class="registration" href="#">Регистрация</a>
-                </div> 
-            </div>
-        </div>                                                                                        
+                </div>  
+                                                                                            
                                                 <!--Строка навигации-->
-        <nav class="main-navigation">         
+        <nav class="main-navigation container">         
          <ul>
              <li><a href="#">Главная</a></li>
              <li><a href="#">Компания</a></li>
@@ -55,10 +57,11 @@
              <li><a href="#">Контакты</a></li>
          </ul>
         </nav>
-    </header>                                         
+       </section>
+                                            
                                                 <!--РАЗНОЦВЕТНЫЙ БЛОК-->
     <main>                                      
-        <section class="categories">
+        <section class="categories container">
             <div class="category-materials">
                <h3 class="category-name">Материалы</h3>
                 <a href="#">На любой вкус</a>
@@ -79,14 +82,16 @@
                <h3 class="category-name">Доставка</h3>
                 <a href="#">Бесплатно</a>
             </div>
-            <div class="category-drills">
+        
+            <div class="slider">
                 <h3 class="category-name-drills">Перфораторы</h3>
                 <p>Настоящие мужские игрушки</p> 
                 <button type="button" class="btn-prev"></button>
                 <button type="button" class="btn-next"></button>
                 <a href="#">Открыть каталог</a>
             </div>
-        </section>                                    <!--ПОПУЛЯРНЫЕ ТОВАРЫ-->
+        </section>
+                                           <!--ПОПУЛЯРНЫЕ ТОВАРЫ-->
             <div class="popular">
                 <p>Популярные товары:</p>
                 <div class="all-popular">

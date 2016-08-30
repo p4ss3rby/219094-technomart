@@ -24,10 +24,14 @@ h3 {
 
 .container {
     width: 940px;
-    min-height: 46px;
     padding: 0 10px;
     margin: 0 auto;  
     background-color: darkgray;
+}
+
+.main-header {
+    background-color: darkblue;
+    min-height: 
 }
 
 .index-logo {
@@ -35,36 +39,27 @@ h3 {
     float: left;
     text-align: center;
     margin-right: 40px;
-    background-color: cadetblue;
+    background-color: orangered;
 }
 
 .search {
-    width: auto;
     float: left;  
-    
+    margin-top: 10px;
     margin-right: 80px;
 }
 
-.bookmarks-cart {
+.bookmarks {
+    width: 140px;
     min-height: 28px;
     padding-top: 14px;
     display: inline-block;
 }
 
-.description {
-    width: 200px;
-    min-height: 61px;
-    float: left;
-    margin-left: 53px;
-    padding-top: 55px
-}
-
-.adress {
-    min-height: 160px;
-}
-
-.login {
-    float: right;
+.cart {
+    width: 130px;
+    min-height: 28px;
+    padding-top: 14px;
+    display: inline-block;
 }
 
 .user-block {
@@ -75,110 +70,129 @@ h3 {
     padding-top: 14px
 }
 
+.under-header {
+    background-color: cornflowerblue;
+    min-height: 290px;
+    margin-bottom: 60px;
+   
+}
 
-.main-header {
-    background-color: bisque;
+.description {
+    width: 205px;
+    float: left;
+    margin-top: 50px;
+}
+
+.adress {
+    width: 272px;
+    min-height: 88px;
+    display: inline-block;
+}
+
+.login {
+ 
+    
 }
 
 .main-navigation {
-    width: 940px;
     background-color: burlywood;
-    margin-left: auto;
-    margin-right: auto;
+    min-height: 49px;
+    margin-top: 75px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-align: center;
+    word-spacing: 20px;
+}
+
+li {
+    display: inline-block;
 }
 
 .categories {
-    width: 940px;
-    min-height: 408px;
     background-color: darkgray;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 60px;
+    padding-left: 23px;
+    padding-top: 26px;
+    min-height: 410px;
+    
 }
 
 .category-materials {
     width: 300px;
-    display: inline-block;
-    margin-right: 20px;
-    padding-left: 24px;
+    float: left;
+    min-height: 123px;
 }
 
 .category-instruments {
     width: 300px;
-    display: inline-block;
-    margin-right: 20px;
-    padding-left: 24px;
+    float: left;
+     min-height: 123px;
+    
 }
 
 .category-equipment {
     width: 300px;
-    display: inline-block;
-    padding-left: 24px;
+    float: left;
+    min-height: 123px;
+    margin-bottom: 20px;
 }
 
 .category-sales {
     width: 300px;
-    display: inline-block;
-    padding-left: 24px;
-    
+    float: right;
+    margin-top: px;
+    margin-right: 40px;
+    min-height: 123px;
+    margin-bottom: 20px;
 }
 
 .category-delivery {
     width: 300px;
-    display: inline-block;
-    padding-left: 24px;
-   
-}
-
-.category-drills {
-    width: 621px;
-    display: inline-block;
-    float:left;
-}
-
-.popular {
-    width: 940px;
-    min-height: 88px;
-    background-color: burlywood;
-    margin-right: auto;
-    margin-left: auto;   
-    margin-top: 54px;
-}
-
-.all-popular {
-    float: right;
-    width: 250px;
-    min-height: 38px;
-}
-
-.drill {
-    width: 940px;
-    background-color: darkgreen;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.drill-item {
-   
-}
-
-.service {
-    width: 400px;
-    min-height: 100px;
-}
-
-.deliver {
-    width: 278px;
-    min-height: 152px;
-    margin-left: 320px;
-    margin-bottom: -100px;
-}
-
-.list {
-    width: 240px;
-    min-height: 181px;
+    margin-top: 300px;
+    margin-left: 600px;
+    min-height: 123px;
     
 }
+
+.slider {
+    width: 500px;
+    min-height: 266px;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .company-item {
     width: 940px;
