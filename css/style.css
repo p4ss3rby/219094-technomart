@@ -157,54 +157,85 @@ li {                            /* Как разместить эти ссылк
     width: 500px;
     min-height: 266px;
     float: left;
-    margin-
 }
 
-.popular {                    
-    margin-top: 330px;             /* Временно, слайдер мешается */
-    background-color: darkgoldenrod
+.popular-products {                    
+    margin-top: 330px;             /* Временно, слайдер мешается прост */
+    background-color: darkgoldenrod;
+    min-height: 89px;
+    padding-left: 30px;
 }
 
+.all-popular {
+    float: right;
+}
 
+.drill {
+    text-align: center;
+}
 
+.drill-item1 {
+    width: 220px;
+    min-height: 318px;
+    display: inline-block;
+}
 
+.drill-item2 {
+    width: 220px;
+    min-height: 318px;
+    display: inline-block;
+}
 
+.drill-item3 {
+    width: 220px;
+    min-height: 318px;
+    display: inline-block;
+}
 
+.drill-item4 {
+    width: 220px;
+    min-height: 318px;
+    display: inline-block;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.popular-companies {                    
+    background-color: darkgoldenrod;
+    min-height: 89px;
+    padding-left: 30px;
+}
 
 .company-item {
     width: 940px;
+    min-height: 311px;
     background-color: azure;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 86px;
+}
+
+.service-delivery {
+    background-color: darkslategrey;
+}
+
+.service {
+    width: 400px;
+    min-height: 115px;
+    float: left;
+    margin-left: 120px;
+    margin-top: 66px;
+}
+
+.list {
+    width: 240px;
+    min-height: 181px;
+    display: inline-block;
+}
+
+.deliver {                     /* Здесь вообще беда у меня, ничто никуда не хочет двигаться */
+    width: 264px;
+    min-height: 164px;
+    display: inline-block;
+    margin-top: 238px;
 }
 
 .contacts-inf {
@@ -213,3 +244,93 @@ li {                            /* Как разместить эти ссылк
     margin-left: auto;
     margin-right: auto;
 }
+
+.upper-footer {
+    background-color: darkseagreen;
+    min-height: 191px;
+}
+
+.up-footer-logo {
+    width: 220px;
+    float: left;
+    text-align: center;
+    margin-left: 104px;
+    background-color: orangered;
+}
+
+.up-footer-cont { /* чёт не знаю, как эту штуку на место поставить */
+    width: 334px;
+    min-height: 53px;
+    float: left;
+   
+}
+
+.up-footer-nav {
+    float: right;
+    margin-right: 150px;
+}
+
+.up-footer-nav1 {
+    float: right;
+    margin-right: 150px;
+}
+
+.lower-footer {
+    min-height: 100px;
+    background-color: dimgrey;
+    padding-top: 30px;
+}
+
+.copyright {
+    float: left;
+}
+
+
+
+.feedback {
+    float: right;
+}
+
+.developer {
+    float: right;
+}
+
+.social {
+    float: left;
+}
+
+/*господи, боже*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
